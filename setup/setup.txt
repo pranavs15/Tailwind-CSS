@@ -1,0 +1,18 @@
+1.npm install -D tailwindcss   : install tailwind css in your laptop like dev dependancy
+2.npx tailwindcss init    :  creates file tailwind.config,js 
+
+
+3.in the content section of tailwind.config,js add path of your html find which helps to convert tailwind  css into normal css
+
+4.add the contents :
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+into css file 
+
+5.npx tailwindcss -i ./style.css -o ./output.css --watch  : the command creates output file which is linked to hml file --watch helps to do the changes directly when we run the file and add changes to output file 
+
+6. link the output file to html  
+
