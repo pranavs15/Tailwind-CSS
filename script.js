@@ -1,5 +1,5 @@
-const navdialog = document.getElementById('nav-dialog');
-function handleMenu()
-{
-    navdialog.classList.toggle('hidden');
+const navDialog = document.getElementById('nav-dialog');
+function handleMenu() {
+    navDialog.classList.toggle('hidden');
 }
+
