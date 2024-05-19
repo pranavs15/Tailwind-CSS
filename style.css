@@ -20,4 +20,9 @@
     .h2-style {
         @apply text-5xl leading-normal sm:font-semibold max-w-2xl;
     }
+
+    .container
+    {
+        @apply gap-6 px-6 py-6 max-w-7xl  mt-16 mx-auto lg:px-8 lg:mt-32;
+    }
 }
